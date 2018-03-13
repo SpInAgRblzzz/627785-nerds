@@ -26,45 +26,49 @@
 	<main>
 		<aside class="catalog-filter">
 			<form action="" method="post" class="catalog-form">
-				<h3 class="catalog-title">Сетка:</h3>
-				<ul class="catalog-grids">
-					<li>
-						<input type="radio" id="adaptive" name="grid">
-						<label for="adaptive">Адаптивная</label>
-					</li>
-					<li>
-						<input type="radio" id="fixed" name="grid">
-						<label for="fixed">Фиксированная</label>
-					</li>
-					<li>
-						<input type="radio" id="rubber" name="grid">
-						<label for="rubber">Резиновая</label>
-					</li>
-				</ul>
-				<h3 class="catalog-title">Особенности:</h3>
-				<ul class="catalog-features">
-					<li>
-						<input type="checkbox" id="slider" name="slider">
-						<label for="slider">Слайдер</label>
-					</li>
-					<li>
-						<input type="checkbox" id="advant" name="advantage">
-						<label for="advantage">Блок преимуществ</label>
-					</li>
-					<li>
-						<input type="checkbox" id="news" name="news">
-						<label for="news">Новости</label>
-					</li>
-					<li>
-						<input type="checkbox" id="gallery" name="gallery">
-						<label for="gallery">Галерея</label>
-					</li>
-					<li>
-						<input type="checkbox" id="cart" name="cart">
-						<label for="cart">Корзина</label>
-					</li>
-				</ul>
-				<input type="submit" value="показать" class="form-submit">
+				<fieldset>
+					<legend class="catalog-title">Сетка:</legend>
+					<ul class="catalog-grids">
+						<li>
+							<input type="radio" id="adaptive" name="grid" value="adaptive">
+							<label for="adaptive">Адаптивная</label>
+						</li>
+						<li>
+							<input type="radio" id="adaptive" name="grid" value="adaptive">
+							<label for="fixed">Фиксированная</label>
+						</li>
+						<li>
+							<input type="radio" id="rubber" name="grid" value="rubber">
+							<label for="rubber">Резиновая</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fielset>
+					<legend class="catalog-title">Особенности:</legend>
+					<ul class="catalog-features">
+						<li>
+							<input type="checkbox" id="slider" name="slider">
+							<label for="slider">Слайдер</label>
+						</li>
+						<li>
+							<input type="checkbox" id="advant" name="advantage">
+							<label for="advantage">Блок преимуществ</label>
+						</li>
+						<li>
+							<input type="checkbox" id="news" name="news">
+							<label for="news">Новости</label>
+						</li>
+						<li>
+							<input type="checkbox" id="gallery" name="gallery">
+							<label for="gallery">Галерея</label>
+						</li>
+						<li>
+							<input type="checkbox" id="cart" name="cart">
+							<label for="cart">Корзина</label>
+						</li>
+					</ul>
+				</fielset>
+				<button type="submit" class="form-submit">Показать</button>
 			</form>
 		</aside>
 
