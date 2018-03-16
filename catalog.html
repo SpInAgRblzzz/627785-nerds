@@ -162,20 +162,20 @@
 	<div class="popup">
 		<h3 class="popup-title">Напишите нам</h3>
 		<form action="post" class="popup-form">
-			<ul>
-				<li class="popup-form-item">
+			<div class="popup-form-row">
+				<fieldset class="popup-form-item">
 					<label for="popup-form-name">Ваше имя:</label>
 					<input type="text" placeholder="Имя Фамилия" id="popup-form-name">
-				</li>
-				<li class="popup-form-item">
+				</fieldset>
+				<fieldset class="popup-form-item">
 					<label for="popup-form-email">Ваш e-mail:</label>
 					<input type="email" placeholder="email@example.com" id="popup-form-email">
-				</li>
-				<li class="popup-form-item">
-					<label for="poup-form-text">Текст письма</label>
-					<textarea id="poup-form-text" cols="30" rows="10">В свободной форме</textarea>
-				</li>
-			</ul>
+				</fieldset>
+			</div>
+			<fieldset class="popup-form-item">
+				<label for="poup-form-text">Текст письма</label>
+				<textarea id="poup-form-text" cols="30" rows="10">В свободной форме</textarea>
+			</fieldset>
 			<button type="submit" class="popup-button">Отправить</button>
 		</form>
 		<button class="popup-close" type="button">Закрыть</button>
