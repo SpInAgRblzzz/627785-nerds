@@ -1,4 +1,5 @@
 /*Общие стили*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -16,6 +17,7 @@ a {
 }
 
 /*Хедер*/
+
 header {
 	background-color: #eeeeee;
 }
@@ -50,59 +52,89 @@ header {
 	opacity: 0.3;
 }
 
-header .page-title{
+header .page-title {
 	font-size: 55px;
 	line-height: 55px;
 	text-transform: none;
 }
 
-/*main*/
+/*main для главной*/
 
-.services-list{
+.services-list {
 	list-style: none;
 }
 
-.webs a{
+.webs a {
 	background-color: #fb565a;
 	color: #ffffff;
 }
 
-.apps a{
+.apps a {
 	background-color: #00ca74;
 	color: #ffffff;
 }
 
-.presentations a{
+.presentations a {
 	background-color: #efc84a;
 	color: #ffffff;
 }
 
-.webs a:hover{
+.webs a:hover {
 	background-color: #e74246;
 	color: #ffffff;
 }
 
-.apps a:hover{
+.apps a:hover {
 	background-color: #00bc6c;
 	color: #ffffff;
 }
 
-.presentations a:hover{
+.presentations a:hover {
 	background-color: #eab534;
 	color: #ffffff;
 }
 
-.webs a:focus{
+.webs a:focus {
 	background-color: #d7373b;
 	color: #e48789;
 }
 
-.apps a:focus{
+.apps a:focus {
 	background-color: #00aa62;
 	color: #74c69c;
 }
 
-.presentations a:focus{
+.presentations a:focus {
 	background-color: #e5a722;
 	color: #edc47f;
+}
+
+/*Футер*/
+
+.social-list {
+	list-style: none;
+}
+
+.social-list a {
+	background-color: #e1e1e1;
+}
+
+.social-list a:hover {
+	background-color: #e74246;
+}
+
+.social-list a:focus {
+	background-color: #d7373b;
+}
+
+.slogan {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.discount {
+	font-size: 16px;
+	line-height: 22px;
+	color: #444444;
 }
