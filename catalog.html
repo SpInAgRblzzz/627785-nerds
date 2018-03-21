@@ -163,7 +163,7 @@
 	</footer>
 	<div class="popup">
 		<h3 class="popup-title">Напишите нам</h3>
-		<form action="post" class="popup-form">
+		<form action="send-form" method="post" class="popup-form">
 			<div class="popup-form-row">
 				<fieldset class="popup-form-item">
 					<label for="popup-form-name">Ваше имя:</label>
@@ -175,12 +175,12 @@
 				</fieldset>
 			</div>
 			<fieldset class="popup-form-item">
-				<label for="poup-form-text">Текст письма</label>
+				<label for="poup-form-text">Текст письма:</label>
 				<textarea id="poup-form-text" cols="30" rows="10">В свободной форме</textarea>
 			</fieldset>
 			<button type="submit" class="popup-button">Отправить</button>
 		</form>
-		<button class="popup-close" type="button">Закрыть</button>
+		<button type="button" class="popup-close"><img src="img/close-cross.svg" alt="Закрыть"></button>
 	</div>
 </body>
 

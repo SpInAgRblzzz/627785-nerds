@@ -138,3 +138,44 @@ header .page-title {
 	line-height: 22px;
 	color: #444444;
 }
+
+/*Всплывающее окно*/
+
+.popup-title {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 1000;
+}
+
+.popup-form-item label {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+.popup fieldset {
+	border: none;
+}
+
+.popup-button {
+	background-color: #fb565a;
+	color: #ffffff;
+}
+
+.popup-close {
+	border: none;
+	background-color: #ffffff;
+	opacity: 0.3;
+}
+
+.popup-close:hover {
+	border: none;
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+.popup-close:focus {
+	border: none;
+	background-color: #ffffff;
+	opacity: 0.1;
+}
