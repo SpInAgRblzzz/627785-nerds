@@ -139,6 +139,30 @@ header .page-title {
 	color: #444444;
 }
 
+/*фильтр внутренней страницы*/
+
+.catalog-title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+fieldset {
+	border: none;
+}
+
+.catalog-title lable {
+	font-size: 16px;
+}
+
+.catalog-grids,
+.catalog-features {
+	list-style: none;
+}
+
+
+
 /*Всплывающее окно*/
 
 .popup-title {
