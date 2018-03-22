@@ -25,7 +25,7 @@ header {
 .header-content {
 	font-size: 16px;
 	line-height: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
@@ -130,7 +130,7 @@ header .page-title {
 .slogan {
 	font-size: 36px;
 	line-height: 36px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .discount {
@@ -144,7 +144,7 @@ header .page-title {
 .catalog-title {
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
@@ -159,6 +159,7 @@ fieldset {
 .catalog-grids,
 .catalog-features {
 	list-style: none;
+	color: #283136;
 }
 
 /*Карточка товара*/
@@ -218,13 +219,13 @@ fieldset {
 .popup-title {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: 1000;
+	font-weight: 500;
 }
 
 .popup-form-item label {
 	font-size: 16px;
 	line-height: 18px;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 .popup fieldset {
