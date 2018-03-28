@@ -244,13 +244,11 @@ fieldset {
 }
 
 .popup-close:hover {
-	border: none;
 	background-color: #ffffff;
 	opacity: 1;
 }
 
 .popup-close:focus {
-	border: none;
 	background-color: #ffffff;
 	opacity: 0.1;
 }
