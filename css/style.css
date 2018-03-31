@@ -196,8 +196,28 @@ main {
 
 /*Футер*/
 
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-social {
+	width: 260px;
+	margin-top: 70px;
+	margin-right: 140px;
+}
+
+.footer-content {
+	display: flex;
+	width: 1160px;
+	min-height: 217px;
+}
+
 .social-list {
+	display: flex;
 	list-style: none;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .social-list a {
@@ -216,12 +236,16 @@ main {
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 62px;
 }
 
 .discount {
 	font-size: 16px;
 	line-height: 22px;
 	color: #444444;
+	margin: 0 auto;
+	margin-top: 14px;	
 }
 
 /*фильтр внутренней страницы*/
