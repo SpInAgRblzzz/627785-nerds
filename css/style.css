@@ -248,6 +248,14 @@ footer {
 	margin-top: 14px;	
 }
 
+/*main каталога*/
+
+.catalog-wrapper {
+	display: flex;
+	width: 1160px;
+	justify-content: space-between;
+}
+
 /*фильтр внутренней страницы*/
 
 .catalog-title {

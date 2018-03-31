@@ -28,123 +28,125 @@
 	</header>
 
 	<main>
-		<aside class="catalog-filter">
-			<form action="apply-filter" method="post" class="catalog-form">
-				<fieldset>
-					<legend class="catalog-title">Сетка:</legend>
-					<ul class="catalog-grids">
-						<li>
-							<input type="radio" id="adaptive" name="grid" value="adaptive">
-							<label for="adaptive">Адаптивная</label>
-						</li>
-						<li>
-							<input type="radio" id="fixed" name="grid" value="adaptive">
-							<label for="fixed">Фиксированная</label>
-						</li>
-						<li>
-							<input type="radio" id="rubber" name="grid" value="rubber">
-							<label for="rubber">Резиновая</label>
-						</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend class="catalog-title">Особенности:</legend>
-					<ul class="catalog-features">
-						<li>
-							<input type="checkbox" id="slider" name="slider">
-							<label for="slider">Слайдер</label>
-						</li>
-						<li>
-							<input type="checkbox" id="advantage" name="advantage">
-							<label for="advantage">Блок преимуществ</label>
-						</li>
-						<li>
-							<input type="checkbox" id="news" name="news">
-							<label for="news">Новости</label>
-						</li>
-						<li>
-							<input type="checkbox" id="gallery" name="gallery">
-							<label for="gallery">Галерея</label>
-						</li>
-						<li>
-							<input type="checkbox" id="cart" name="cart">
-							<label for="cart">Корзина</label>
-						</li>
-					</ul>
-				</fieldset>
-				<button type="submit" class="form-submit">Показать</button>
-			</form>
-		</aside>
+		<div class="catalog-wrapper">
+			<aside class="catalog-filter">
+				<form action="apply-filter" method="post" class="catalog-form">
+					<fieldset>
+						<legend class="catalog-title">Сетка:</legend>
+						<ul class="catalog-grids">
+							<li>
+								<input type="radio" id="adaptive" name="grid" value="adaptive">
+								<label for="adaptive">Адаптивная</label>
+							</li>
+							<li>
+								<input type="radio" id="fixed" name="grid" value="adaptive">
+								<label for="fixed">Фиксированная</label>
+							</li>
+							<li>
+								<input type="radio" id="rubber" name="grid" value="rubber">
+								<label for="rubber">Резиновая</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend class="catalog-title">Особенности:</legend>
+						<ul class="catalog-features">
+							<li>
+								<input type="checkbox" id="slider" name="slider">
+								<label for="slider">Слайдер</label>
+							</li>
+							<li>
+								<input type="checkbox" id="advantage" name="advantage">
+								<label for="advantage">Блок преимуществ</label>
+							</li>
+							<li>
+								<input type="checkbox" id="news" name="news">
+								<label for="news">Новости</label>
+							</li>
+							<li>
+								<input type="checkbox" id="gallery" name="gallery">
+								<label for="gallery">Галерея</label>
+							</li>
+							<li>
+								<input type="checkbox" id="cart" name="cart">
+								<label for="cart">Корзина</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button type="submit" class="form-submit">Показать</button>
+				</form>
+			</aside>
 
-		<div class="catalog">
-			<ul class="catalog-list">
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-sedona.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">sedona</a></h3>
-							<p class="catalog-item-description">Информационный сайт для туристов</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+			<div class="catalog">
+				<ul class="catalog-list">
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-sedona.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">sedona</a></h3>
+								<p class="catalog-item-description">Информационный сайт для туристов</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-pink.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">pink app</a></h3>
-							<p class="catalog-item-description">Продуктовый лендинг приложения для IOS и Android</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+					</li>
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-pink.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">pink app</a></h3>
+								<p class="catalog-item-description">Продуктовый лендинг приложения для IOS и Android</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-barbershop.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">barbreshop</a></h3>
-							<p class="catalog-item-description">Салон красоты. Для мужчин, да.</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+					</li>
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-barbershop.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">barbreshop</a></h3>
+								<p class="catalog-item-description">Салон красоты. Для мужчин, да.</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-mishka.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">mishka</a></h3>
-							<p class="catalog-item-description">Интернет-магазин вязаных игрушек</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+					</li>
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-mishka.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">mishka</a></h3>
+								<p class="catalog-item-description">Интернет-магазин вязаных игрушек</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-aplus.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">a plus</a></h3>
-							<p class="catalog-item-description">Лендинг курсов повышения квалификации</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+					</li>
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-aplus.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">a plus</a></h3>
+								<p class="catalog-item-description">Лендинг курсов повышения квалификации</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
-					<img src="img/catalog-kvast.jpg" class="catalog-item-image" alt="Изображение макета">
-					<div class="catalog-item-popup">
-						<div class="catalog-item-info">
-							<h3 class="catalog-item-title"><a href="">кваст</a></h3>
-							<p class="catalog-item-description">Промо-сайт производителя крафтового кваса</p>
-							<button type="button" class="catalog-item-price">9 900 руб.</button>
+					</li>
+					<li class="catalog-item">
+						<img src="img/browser-bar.svg" class="browser-bar" alt="Декоративный элемент">
+						<img src="img/catalog-kvast.jpg" class="catalog-item-image" alt="Изображение макета">
+						<div class="catalog-item-popup">
+							<div class="catalog-item-info">
+								<h3 class="catalog-item-title"><a href="">кваст</a></h3>
+								<p class="catalog-item-description">Промо-сайт производителя крафтового кваса</p>
+								<button type="button" class="catalog-item-price">9 900 руб.</button>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</main>
 
