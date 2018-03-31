@@ -258,6 +258,10 @@ footer {
 
 /*фильтр внутренней страницы*/
 
+.catalog-filter {
+	width: 260px;
+}
+
 .catalog-title {
 	font-size: 18px;
 	line-height: 30px;
@@ -280,13 +284,25 @@ fieldset {
 }
 
 /*Карточка товара*/
+.catalog {	
+	width: 760px;
+}
 
 .catalog-list {
+	display: flex;
 	list-style: none;
+	margin: 0 auto;
+	width: 760px;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .browser-bar {
 	opacity: 0.12;
+}
+
+.catalog-item {
+	width: 360px;
 }
 
 .catalog-item-info {
