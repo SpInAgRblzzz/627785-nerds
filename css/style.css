@@ -5,8 +5,8 @@ body {
 	padding: 0;
 
 	font-family: Roboto, Arial, sans-serif;
-	font-size: 16 px;
-	line-height: 24 px;
+	font-size: 16px;
+	line-height: 24px;
 	color: #000000;
 
 	background-color: #ffffff;
@@ -245,7 +245,7 @@ footer {
 	line-height: 22px;
 	color: #444444;
 	margin: 0 auto;
-	margin-top: 14px;	
+	margin-top: 14px;
 }
 
 /*main каталога*/
@@ -284,7 +284,8 @@ fieldset {
 }
 
 /*Карточка товара*/
-.catalog {	
+
+.catalog {
 	width: 760px;
 }
 
