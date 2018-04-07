@@ -16,6 +16,24 @@ a {
 	text-decoration: none;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 /*Хедер*/
 
 header {
@@ -113,9 +131,10 @@ main {
 
 .services-list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin: 0 auto;
 	list-style: none;
+	padding: 0;
 }
 
 .webs a {
@@ -210,32 +229,46 @@ footer {
 
 .footer-social {
 	width: 260px;
+	min-height: 80px;
 	margin-top: 70px;
 	margin-right: 140px;
+	padding: 0px;
 }
 
 .footer-content {
 	display: flex;
 	width: 1160px;
 	min-height: 217px;
+	justify-content: flex-start;
 }
 
 .social-list {
 	display: flex;
 	list-style: none;
+	justify-content: flex-start;
+	padding: 0px;
+	margin: 0px;
+}
+
+.social-button {
+	margin-right: 10px;
+}
+
+.social-button a {
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
-}
-
-.social-list a {
 	background-color: #e1e1e1;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
 }
 
-.social-list a:hover {
+.social-button a:hover {
 	background-color: #e74246;
 }
 
-.social-list a:focus {
+.social-button a:focus {
 	background-color: #d7373b;
 }
 
@@ -244,7 +277,7 @@ footer {
 	line-height: 36px;
 	font-weight: bold;
 	margin: 0 auto;
-	margin-top: 62px;
+	margin-top: 70px;
 }
 
 .discount {
