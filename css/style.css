@@ -343,21 +343,36 @@ fieldset {
 }
 
 .catalog-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	width: 360px;
+	min-height: 615px;
+	margin-bottom: 33px;
+	position: relative;
 }
 
-.catalog-item-info {
+.catalog-item-popup {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 360px;
 	display: none;
-
 }
 
 .catalog-item:hover .browser-bar,
-.catalog-item:hover .catalog-item-info {
+.catalog-item:hover .catalog-item-popup {
 	display: block;
 	opacity: 1;
 }
 
 .catalog-item-title {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.catalog-item-title a {
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -365,16 +380,25 @@ fieldset {
 }
 
 .catalog-item-description {
+	width: 240px;
+	text-align: center;
 	font-size: 16px;
 	line-height: 18px;
 	color: #666666;
+	margin: 0 auto;
 }
 
 .catalog-item-price {
+	width: 200px;
+	height: 50px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
 	background-color: #fb565a;
+	margin-top: 30px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 43px;
 }
 
 .catalog-item-price:hover {
@@ -386,7 +410,14 @@ fieldset {
 }
 
 .catalog-item-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 230px;
 	background-color: #eeeeee;
+
 }
 
 /*Всплывающее окно*/
