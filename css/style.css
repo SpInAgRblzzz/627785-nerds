@@ -176,7 +176,7 @@ main {
 .apps a:focus {
 	background-color: #00aa62;
 	color: #74c69c;
-	box-shadow: inset 0 3px 0 0 #009958;	
+	box-shadow: inset 0 3px 0 0 #009958;
 }
 
 .presentations a:focus {
@@ -272,11 +272,11 @@ footer {
 }
 
 .social-link:focus {
-	background-color: #d7373b;	
+	background-color: #d7373b;
 	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
-.social-link:focus img{
+.social-link:focus img {
 	opacity: 0.3;
 }
 
@@ -440,7 +440,11 @@ fieldset {
 	width: 360px;
 	min-height: 615px;
 	margin-bottom: 33px;
-	position: relative;
+	position: relative;	 
+}
+
+.catalog-item:hover {
+	box-shadow: 0 10px 20px 0 #cfcfcf;
 }
 
 .catalog-item-popup {
