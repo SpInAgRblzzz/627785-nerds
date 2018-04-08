@@ -424,6 +424,7 @@ fieldset {
 	display: flex;
 	list-style: none;
 	margin: 0 auto;
+	padding: 0;
 	width: 760px;
 	justify-content: space-between;
 	flex-wrap: wrap;
