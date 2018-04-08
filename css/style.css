@@ -118,17 +118,13 @@ header .page-title {
 
 /*main для главной*/
 
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-}
+
 
 .services {
 	width: 1160px;
 	min-height: 347px;
-	margin-top: 81px;
+	margin: 0 auto;
+	margin-top: 81px;	
 }
 
 .services-list {
@@ -304,6 +300,7 @@ footer {
 	display: flex;
 	width: 1160px;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
 /*фильтр внутренней страницы*/
