@@ -300,6 +300,7 @@ footer {
 
 .catalog-filter {
 	width: 260px;
+	min-height: 700px;
 }
 
 .catalog-title {
@@ -307,20 +308,101 @@ footer {
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 fieldset {
 	border: none;
 }
 
-.catalog-title lable {
+.catalog-grids label,
+.catalog-features label {
 	font-size: 16px;
+	cursor: pointer;
+	user-select: none;
 }
 
 .catalog-grids,
 .catalog-features {
 	list-style: none;
 	color: #283136;
+	padding-left: 35px;
+	margin: 0px;
+}
+
+.catalog-grids li,
+.catalog-features li {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	user-select: none;
+	opacity: 0.4;
+	margin-bottom: 15px;
+}
+
+.catalog-grids li:hover,
+.catalog-features li:hover {
+	opacity: 1;
+}
+
+.catalog-checkbox + label::before {
+	content: url("../img/checkbox-off.svg");
+	position: absolute;
+	left: -40px;
+	width: 23px;
+	height: 23px;
+}
+
+.catalog-checkbox:checked + label::after {
+	content: url("../img/checkbox-on.svg");
+	position: absolute;
+	left: -40px;
+	width: 23px;
+	height: 23px;
+}
+
+.catalog-radio + label::before {
+	content: url("../img/radio-off.svg");
+	position: absolute;
+	left: -40px;
+	width: 23px;
+	height: 23px;
+}
+
+.catalog-radio:checked + label::after {
+	content: url("../img/radio-on.svg");
+	position: absolute;
+	left: -40px;
+	width: 23px;
+	height: 23px;
+}
+
+.catalog-form fieldset {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 50px;
+}
+
+.form-submit {
+	width: 260px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font: inherit;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #eeeeee;
+	outline: none;
+}
+
+.form-submit:hover {
+	background-color: #dfdfdf;
+}
+
+.form-submit:active {
+	background-color: #d5d5d5;
+	color: #a9a9a9;
 }
 
 /*Карточка товара*/
