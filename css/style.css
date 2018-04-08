@@ -481,6 +481,8 @@ fieldset {
 	border: none;
 	border-radius: 5px;
 	margin-bottom: 43px;
+	outline: none;
+	cursor: pointer;
 }
 
 .catalog-item-price:hover {
