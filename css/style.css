@@ -356,7 +356,7 @@ fieldset {
 .catalog-checkbox + label::before {
 	content: url("../img/checkbox-off.svg");
 	position: absolute;
-	left: -40px;
+	left: -35px;
 	width: 23px;
 	height: 23px;
 }
@@ -364,7 +364,7 @@ fieldset {
 .catalog-checkbox:checked + label::after {
 	content: url("../img/checkbox-on.svg");
 	position: absolute;
-	left: -40px;
+	left: -35px;
 	width: 23px;
 	height: 23px;
 }
@@ -372,7 +372,7 @@ fieldset {
 .catalog-radio + label::before {
 	content: url("../img/radio-off.svg");
 	position: absolute;
-	left: -40px;
+	left: -35px;
 	width: 23px;
 	height: 23px;
 }
@@ -380,7 +380,7 @@ fieldset {
 .catalog-radio:checked + label::after {
 	content: url("../img/radio-on.svg");
 	position: absolute;
-	left: -40px;
+	left: -35px;
 	width: 23px;
 	height: 23px;
 }
