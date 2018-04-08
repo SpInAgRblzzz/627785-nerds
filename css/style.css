@@ -257,7 +257,7 @@ footer {
 	margin-right: 10px;
 }
 
-.social-button a {
+.social-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -267,13 +267,17 @@ footer {
 	border-radius: 50%;
 }
 
-.social-button a:hover {
+.social-link:hover {
 	background-color: #e74246;
 }
 
-.social-button a:focus {
+.social-link:focus {
 	background-color: #d7373b;	
 	box-shadow: inset 0 3px 0 0 #c13135;
+}
+
+.social-link:focus img{
+	opacity: 0.3;
 }
 
 .slogan {
