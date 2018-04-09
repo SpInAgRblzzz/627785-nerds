@@ -10,7 +10,7 @@ body {
 	color: #000000;
 
 	background-color: #ffffff;
-	
+
 	min-width: 1200px;
 }
 
@@ -118,13 +118,11 @@ header .page-title {
 
 /*main для главной*/
 
-
-
 .services {
 	width: 1160px;
 	min-height: 347px;
 	margin: 0 auto;
-	margin-top: 81px;	
+	margin-top: 81px;
 }
 
 .services-list {
@@ -442,7 +440,21 @@ fieldset {
 	width: 360px;
 	min-height: 615px;
 	margin-bottom: 33px;
-	position: relative;	 
+	position: relative;
+}
+
+.catalog-item::after {
+	content: "";
+	position: absolute;
+	top: 40px;
+	width: 360px;
+	height: 576px;
+	box-sizing: border-box;
+	border: 2px solid #e5e5e5;
+}
+
+.catalog-item:hover::after {
+	display: none;
 }
 
 .catalog-item:hover {
