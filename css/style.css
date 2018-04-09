@@ -220,7 +220,6 @@ header .page-title {
 	vertical-align: middle;
 	text-transform: uppercase;
 	border-radius: 3px;
-
 }
 
 .services-title {
@@ -322,7 +321,7 @@ header .page-title {
 	min-height: 100px;
 }
 
-.statistics-persent{
+.statistics-persent {
 	position: relative;
 	font-size: 45px;
 	line-height: 45px;
@@ -363,6 +362,80 @@ header .page-title {
 
 .partner-link:active {
 	opacity: 0.1;
+}
+
+
+.contacts-wrapper {
+	min-width: 1200px;
+	max-width: 1440px;
+	min-height: 415px;
+	background-image: url("../img/map.jpg");
+	margin: 0 auto;
+	padding-top: 52px;
+	box-sizing: border-box;
+}
+
+.contacts-content-conteiner {
+	width: 1160px;
+	min-height: 310px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.contacts-content {
+	width: 320px;
+	min-height: 310px;
+	background-color: #ffffff;
+	vertical-align: top;
+	padding-left: 50px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+}
+
+.contacts-title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.contacts-adress {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.contacts-phone {
+	margin: 0;
+	margin-bottom: 35px;
+}
+
+.contacts-button {
+	width: 220px;
+	height: 50px;
+	background-color: #fb565a;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 2px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font: inherit;
+}
+
+.contacts-button:hover {
+	background-color: #e74246;
+	color: #ffffff;
+}
+
+.contacts-button:active {
+	background-color: #d7373b;
+	color: #e48789;
+	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
 /*Футер*/
@@ -546,6 +619,7 @@ fieldset {
 	cursor: pointer;
 	background-color: #eeeeee;
 	outline: none;
+	padding: 0;
 }
 
 .form-submit:hover {
