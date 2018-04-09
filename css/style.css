@@ -596,7 +596,7 @@ fieldset {
 	width: 360px;
 	height: 576px;
 	box-sizing: border-box;
-	border: 2px solid #e5e5e5;
+	border: 1px solid #e5e5e5;
 }
 
 .catalog-item:hover::after {
