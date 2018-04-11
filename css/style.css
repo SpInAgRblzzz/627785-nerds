@@ -1042,7 +1042,7 @@ fieldset {
 	padding-left: 100px;
 	padding-top: 70px;
 	background-color: #ffffff;
-	box-shadow: 0 20px 20px 5px #000000;
+	box-shadow: 0 20px 20px 0 #000000;
 }
 
 .popup-form-row {
