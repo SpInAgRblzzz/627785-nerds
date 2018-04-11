@@ -134,6 +134,10 @@ header .page-title {
 
 /*слайдер*/
 
+.slider-wrapper {
+	position: relative;
+}
+
 .slider {
 	list-style: none;
 	padding: 0px;
@@ -149,7 +153,8 @@ header .page-title {
 	width: 1160px;
 	min-height: 430px;
 	box-sizing: border-box;
-	padding-top: 80px;
+	padding-top: 80px;	
+	display: none;
 }
 
 .slide-1 {
@@ -185,6 +190,10 @@ header .page-title {
 	margin-bottom: 45px;
 }
 
+.slide-active {
+	display: block;
+}
+
 .slider-button {
 	display: block;
 	width: 240px;
@@ -208,6 +217,49 @@ header .page-title {
 	background-color: #d7373b;
 	color: #e48789;
 	box-shadow: inset 0 3px 0 0 #c13135;
+}
+
+.slider-navigation {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	position: absolute;
+	bottom: 95px;
+	left: 535px;
+	width: 95px;
+	padding: 0px;
+	margin: 0;
+}
+
+.slider-navigation-item {
+	position: relative;
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;	
+	padding: 5px;
+}
+
+.slider-navigation-item::after {
+	content: "";
+	display: block;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+.slider-navigation-active::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	box-sizing: border-box;
+	width: 8px;
+	height: 8px;
+	border: 2px solid #c1c1c1;
+	border-radius: 50%;
 }
 
 /*main для главной*/
@@ -501,7 +553,6 @@ header .page-title {
 	text-transform: uppercase;
 	border-radius: 2px;
 	cursor: pointer;
-	outline: none;
 	border: none;
 	font: inherit;
 }
@@ -515,6 +566,7 @@ header .page-title {
 	background-color: #d7373b;
 	color: #e48789;
 	box-shadow: inset 0 3px 0 0 #c13135;
+	outline: none;
 }
 
 /*Футер*/
