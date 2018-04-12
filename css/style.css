@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
 	text-transform: uppercase;
 	font: inherit;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 500;
 
 	border-radius: 2px;
 	border: none;
