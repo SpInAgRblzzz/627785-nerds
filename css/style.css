@@ -36,6 +36,34 @@ input[type="radio"].visually-hidden {
 	overflow: hidden;
 }
 
+.btn {	
+	display: block;
+	
+	background-color: #fb565a;
+	
+	color: #ffffff;
+	text-transform: uppercase;
+	font: inherit;
+	text-align: center;
+	font-weight: bold;
+	
+	border-radius: 2px;
+	border: none;
+	
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #e74246;
+	color: #ffffff;
+}
+
+.btn:active {
+	background-color: #d7373b;
+	color: #e48789;
+	box-shadow: inset 0 3px 0 0 #c13135;
+	outline: none;
+}
 /*Хедер*/
 
 header {
@@ -217,35 +245,10 @@ header .page-title {
 }
 
 .slider-button {
-	display: block;
-
 	box-sizing: border-box;
 	width: 240px;
 	height: 50px;
 	padding-top: 14px;
-
-	background-color: #fb565a;
-
-	color: #ffffff;
-	text-transform: uppercase;
-	text-align: center;
-
-	border-radius: 2px;
-
-	cursor: pointer;
-}
-
-.slider-button:hover {
-	background-color: #e74246;
-
-	color: #ffffff;
-}
-
-.slider-button:active {
-	background-color: #d7373b;
-	color: #e48789;
-	box-shadow: inset 0 3px 0 0 #c13135;
-	outline: none;
 }
 
 .slider-navigation {
@@ -328,11 +331,6 @@ header .page-title {
 	padding: 0;
 }
 
-.webs a {
-	background-color: #fb565a;
-	color: #ffffff;
-}
-
 .apps a {
 	background-color: #00ca74;
 	color: #ffffff;
@@ -340,11 +338,6 @@ header .page-title {
 
 .presentations a {
 	background-color: #efc84a;
-	color: #ffffff;
-}
-
-.webs a:hover {
-	background-color: #e74246;
 	color: #ffffff;
 }
 
@@ -356,12 +349,6 @@ header .page-title {
 .presentations a:hover {
 	background-color: #eab534;
 	color: #ffffff;
-}
-
-.webs a:focus {
-	background-color: #d7373b;
-	color: #e48789;
-	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
 .apps a:focus {
@@ -392,20 +379,11 @@ header .page-title {
 }
 
 .services-list-item a {
-	display: inline-block;
-
-
 	width: 160px;
 	min-height: 50px;
 	box-sizing: border-box;
 
 	padding-top: 14px;
-
-	text-align: center;
-	vertical-align: middle;
-	text-transform: uppercase;
-
-	border-radius: 3px;
 }
 
 .services-title {
@@ -633,30 +611,7 @@ header .page-title {
 
 .contacts-button {
 	width: 220px;
-	height: 50px;
-	
-	background-color: #fb565a;
-	
-	color: #ffffff;
-	text-transform: uppercase;
-	font: inherit;
-	
-	border-radius: 2px;
-	border: none;
-	
-	cursor: pointer;	
-}
-
-.contacts-button:hover {
-	background-color: #e74246;
-	color: #ffffff;
-}
-
-.contacts-button:active {
-	background-color: #d7373b;
-	color: #e48789;
-	box-shadow: inset 0 3px 0 0 #c13135;
-	outline: none;
+	height: 50px;	
 }
 
 /*Футер*/
@@ -708,15 +663,6 @@ footer {
 	height: 80px;
 	
 	border-radius: 50%;
-}
-
-.social-link:hover {
-	background-color: #e74246;
-}
-
-.social-link:focus {
-	background-color: #d7373b;
-	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
 .social-link:focus img {
@@ -822,23 +768,12 @@ footer {
 	margin-right: 10px;
 }
 
-.pagination-item {
-	display: block;
-	
+.pagination-item {	
 	width: 50px;
 	height: 50px;
 	box-sizing: border-box;
-	
-	border: none;
-	border-radius: 3px;
-	
-	font: inherit;
-	text-transform: uppercase;
-	font-weight: bold;
 	color: #000000;
-	text-align: center;
 	
-	cursor: pointer;
 	background-color: #eeeeee;
 	
 	padding: 0;		
@@ -1072,23 +1007,18 @@ fieldset {
 	width: 260px;
 	height: 50px;
 	
-	border: none;
-	border-radius: 3px;
-	
 	font: inherit;
 	text-transform: uppercase;
 	font-weight: bold;
-	
-	cursor: pointer;
+	color: #000000;
 	
 	background-color: #eeeeee;
-	outline: none;
-	
-	padding: 0;
 }
 
 .form-submit:hover {
 	background-color: #dfdfdf;
+	
+	color: #000000;
 }
 
 .form-submit:active {
@@ -1199,29 +1129,8 @@ fieldset {
 	width: 200px;
 	height: 50px;
 	
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffffff;
-	
-	background-color: #fb565a;
-	
 	margin-top: 30px;
 	margin-bottom: 43px;
-	
-	border: none;
-	border-radius: 3px;
-		
-	cursor: pointer;
-}
-
-.catalog-item-price:hover {
-	background-color: #e74246;
-}
-
-.catalog-item-price:focus {
-	background-color: #d7373b;
-	box-shadow: inset 0 3px 0 0 #c13135;
-	outline: none;
 }
 
 .catalog-item-info {
@@ -1366,31 +1275,8 @@ fieldset {
 .popup-button {
 	width: 260px;
 	height: 50px;
-	
-	background-color: #fb565a;
-	
-	color: #ffffff;
-	text-transform: uppercase;
-	font: inherit;
-	
-	border-radius: 2px;
-	border: none;
-	
-	cursor: pointer;
 		
 	margin-top: 50px;
-}
-
-.popup-button:hover {
-	background-color: #e74246;
-	color: #ffffff;
-}
-
-.popup-button:active {
-	background-color: #d7373b;
-	color: #e48789;
-	box-shadow: inset 0 3px 0 0 #c13135;
-	outline: none;
 }
 
 .popup-close {
