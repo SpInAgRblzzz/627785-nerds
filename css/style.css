@@ -40,7 +40,7 @@ input[type="radio"].visually-hidden {
 	display: block;
 
 	min-height: 50px;
-	
+
 	background-color: #fb565a;
 
 	color: #ffffff;
@@ -53,7 +53,7 @@ input[type="radio"].visually-hidden {
 	border: none;
 
 	padding: 16px;
-	
+
 	cursor: pointer;
 }
 
@@ -157,7 +157,7 @@ header .page-title {
 	width: 100%;
 	min-height: 130px;
 	box-sizing: border-box;
-	
+
 	padding-top: 50px;
 
 	margin: 0 auto;
@@ -180,7 +180,7 @@ header .page-title {
 	align-items: center;
 
 	width: 115px;
-	
+
 	margin-top: 25px;
 }
 
@@ -189,7 +189,7 @@ header .page-title {
 
 .slider-wrapper {
 	position: relative;
-	
+
 	margin-top: -18px;
 }
 
@@ -403,7 +403,7 @@ header .page-title {
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+
 	margin: 0px;
 	margin-top: 26px;
 	margin-bottom: 17px;
@@ -412,7 +412,7 @@ header .page-title {
 .services-list-item p {
 	font-size: 16px;
 	line-height: 24px;
-	
+
 	margin: 0px;
 	margin-bottom: 32px;
 }
@@ -468,7 +468,7 @@ header .page-title {
 
 .development-list-item {
 	position: relative;
-	
+
 	margin-bottom: 24px;
 }
 
@@ -505,7 +505,7 @@ header .page-title {
 	text-align: center;
 
 	margin-top: 245px;
-	margin-bottom: 29px;
+	margin-bottom: 31px;
 }
 
 .statistics {
@@ -527,7 +527,7 @@ header .page-title {
 	min-height: 100px;
 }
 
-.statistics-item p{
+.statistics-item p {
 	margin: 0px;
 }
 
@@ -571,17 +571,33 @@ header .page-title {
 .partner-link a {
 	display: block;
 	height: 180px;
-}
-
-.partner-link {
+	
 	opacity: 0.2;
 }
 
-.partner-link:hover {
+.partner-link:not(:last-child)::after {	
+	content: "";
+	
+	position: absolute;
+	top: 58px;
+	right: -21px;
+	 
+	width: 2px;
+	height: 52px;
+	background-color: #eeeeee;
+	
 	opacity: 1;
 }
 
-.partner-link:active {
+.partner-link {
+	position: relative;
+}
+
+.partner-link a:hover {
+	opacity: 1;
+}
+
+.partner-link a:active {
 	opacity: 0.1;
 }
 
@@ -634,6 +650,7 @@ header .page-title {
 }
 
 .contacts-adress {
+	width: 210px;
 	margin: 0;
 	margin-bottom: 20px;
 }
@@ -697,7 +714,7 @@ footer {
 	height: 80px;
 
 	border-radius: 50%;
-	
+
 	padding: 0px;
 }
 
@@ -709,6 +726,7 @@ footer {
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: bold;
+	letter-spacing: 0.1px;
 
 	margin: 0 auto;
 	margin-top: 74px;
@@ -718,7 +736,7 @@ footer {
 	font-size: 16px;
 	line-height: 22px;
 	color: #444444;
-	
+
 	margin: 0 auto;
 	margin-top: 10px;
 }
@@ -746,11 +764,11 @@ footer {
 	line-height: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+
 	margin: 0px;
 }
 
-.catalog-order-navigation{
+.catalog-order-navigation {
 	display: flex;
 	justify-content: space-between;
 }
@@ -768,7 +786,7 @@ footer {
 	margin: 0px;
 }
 
-.catalog-order a{
+.catalog-order a {
 	vertical-align: text-top;
 }
 
@@ -887,6 +905,7 @@ button.pagination-item {
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 0px;
+	letter-spacing: 0.5px;
 }
 
 .range-controls {
@@ -1065,7 +1084,7 @@ fieldset {
 	color: #000000;
 
 	background-color: #eeeeee;
-	
+
 	padding: 13px;
 	margin-top: 31px;
 }
@@ -1376,7 +1395,7 @@ fieldset {
 	width: 760px;
 	height: 118px;
 	resize: none;
-	
+
 	padding-top: 7px;
 }
 
