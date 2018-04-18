@@ -431,14 +431,15 @@ header .page-title {
 }
 
 .introduction {
-	width: 660px;
+	width: 668px;
 }
 
 .introduction-title {
 	font-size: 45px;
 	line-height: 45px;
+	font-weight: 500;
 
-	margin-top: 72px;
+	margin-top: 75px;
 	margin-bottom: 33px;
 }
 
@@ -457,7 +458,7 @@ header .page-title {
 	text-transform: uppercase;
 
 	margin: 0px;
-	margin-bottom: 24px;
+	margin-bottom: 28px;
 }
 
 .development-list {
