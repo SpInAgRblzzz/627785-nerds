@@ -669,7 +669,7 @@ header {
 .contacts-button {
 	box-sizing: border-box;
 	width: 220px;
-	height: 50px;	
+	height: 50px;
 }
 
 /*Футер*/
@@ -689,7 +689,7 @@ header {
 
 	width: 1160px;
 	min-height: 217px;
-	
+
 	margin: 0 auto;
 }
 
@@ -1034,13 +1034,7 @@ fieldset {
 	display: block;
 	cursor: pointer;
 	user-select: none;
-	opacity: 0.4;
 	margin-bottom: 16px;
-}
-
-.catalog-grids li:hover,
-.catalog-features li:hover {
-	opacity: 1;
 }
 
 .catalog-checkbox + label::before {
@@ -1074,6 +1068,23 @@ fieldset {
 	width: 23px;
 	height: 23px;
 }
+
+
+.catalog-checkbox + label,
+.catalog-radio + label {
+	opacity: 0.4;
+}
+
+.catalog-checkbox + label:hover,
+.catalog-radio + label:hover {
+	opacity: 1;
+}
+
+.catalog-checkbox:disabled + label,
+.catalog-radio:disabled + label {
+	opacity: 0.1;
+}
+
 
 .catalog-form fieldset {
 	margin: 0px;
