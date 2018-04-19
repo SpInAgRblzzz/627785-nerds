@@ -480,6 +480,7 @@ header .page-title {
 	content: "";
 
 	display: inline-block;
+	vertical-align: middle;
 
 	width: 25px;
 	height: 2px;
@@ -972,6 +973,7 @@ footer {
 
 .price-controls label {
 	display: inline-block;
+	vertical-align: middle;
 
 	width: 50%;
 
