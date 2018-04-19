@@ -613,6 +613,7 @@ header .page-title {
 	min-height: 415px;
 	box-sizing: border-box;
 
+	background-color: #f1efe8;
 	background-image: url("../img/map.jpg");
 
 	margin: 0 auto;
