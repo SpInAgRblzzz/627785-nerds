@@ -667,8 +667,9 @@ header .page-title {
 }
 
 .contacts-button {
+	box-sizing: border-box;
 	width: 220px;
-	height: 50px;
+	height: 50px;	
 }
 
 /*Футер*/
