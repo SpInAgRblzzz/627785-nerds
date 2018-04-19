@@ -673,11 +673,6 @@ header .page-title {
 
 /*Футер*/
 
-footer {
-	display: flex;
-	justify-content: center;
-}
-
 .footer-social {
 	width: 260px;
 	min-height: 80px;
@@ -693,6 +688,8 @@ footer {
 
 	width: 1160px;
 	min-height: 217px;
+	
+	margin: 0 auto;
 }
 
 .social-list {
