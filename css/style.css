@@ -608,8 +608,9 @@ header {
 
 
 .contacts-wrapper {
-	min-width: 1200px;
-	max-width: 1440px;
+	position: relative;
+	
+	width: 1200px;
 	min-height: 415px;
 	box-sizing: border-box;
 
@@ -617,19 +618,17 @@ header {
 	background-image: url("../img/map.jpg");
 
 	margin: 0 auto;
-	padding-top: 52px;
-
 }
 
-.contacts-content-conteiner {
-	width: 1160px;
-	min-height: 310px;
-
-	margin: 0 auto;
-	padding: 0px;
+.contacts-wrapper iframe {
+	display: block;
 }
 
 .contacts-content {
+	position: absolute;
+	left: 20px;
+	top: 52px;
+	
 	width: 320px;
 	min-height: 310px;
 	box-sizing: border-box;
