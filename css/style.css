@@ -689,7 +689,7 @@ header {
 .contacts-wrapper {
 	position: relative;
 
-	width: 1200px;
+	width: 100%;
 	min-height: 415px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -702,11 +702,13 @@ header {
 
 .contacts-wrapper iframe {
 	display: block;
+	border: none;
+	width: 100%;
 }
 
 .contacts-content {
 	position: absolute;
-	left: 20px;
+	left: 50%;
 	top: 52px;
 
 	width: 320px;
@@ -716,8 +718,8 @@ header {
 
 	background-color: #ffffff;
 
-	padding-left: 50px;
-	padding-top: 50px;
+	padding: 50px 50px 47px;
+	margin-left: -580px;
 
 	font-size: 16px;
 	line-height: 18px;
