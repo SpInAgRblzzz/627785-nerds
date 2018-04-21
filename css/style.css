@@ -699,6 +699,7 @@ input[type="radio"].visually-hidden {
 	display: block;
 	border: none;
 	width: 100%;
+	outline: none;
 }
 
 .contacts-content {
